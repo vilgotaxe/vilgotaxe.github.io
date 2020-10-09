@@ -10,18 +10,36 @@ h3{
 }
 
 body{
-   
-    im
+    background-color: rgb(201, 198, 198);
+    color: rgb(37, 37, 37);
+    
 }
 
 #teapot{
-    padding-left: 560px;
+    padding-left: 430px;
 }
 
 a{
     padding-top: 40px;
     color: black;
-    padding-left: 605px;
+    padding-left: 475px;
     text-decoration: none;
 
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited{
+    color: darkblue
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 140px;
+    padding-top: 50px;
 }
